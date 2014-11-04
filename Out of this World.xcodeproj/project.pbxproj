@@ -14,6 +14,7 @@
 		F4DC64111A097208008668B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DC64101A097208008668B6 /* Images.xcassets */; };
 		F4DC64141A097208008668B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DC64121A097208008668B6 /* LaunchScreen.xib */; };
 		F4DC64201A097208008668B6 /* Out_of_this_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DC641F1A097208008668B6 /* Out_of_this_WorldTests.m */; };
+		F4DC642B1A097461008668B6 /* OWOuterSpaceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DC642A1A097461008668B6 /* OWOuterSpaceTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F4DC64191A097208008668B6 /* Out of this WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Out of this WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DC641E1A097208008668B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4DC641F1A097208008668B6 /* Out_of_this_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Out_of_this_WorldTests.m; sourceTree = "<group>"; };
+		F4DC64291A097461008668B6 /* OWOuterSpaceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWOuterSpaceTableViewController.h; sourceTree = "<group>"; };
+		F4DC642A1A097461008668B6 /* OWOuterSpaceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWOuterSpaceTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F4DC640A1A097208008668B6 /* ViewController.h */,
 				F4DC640B1A097208008668B6 /* ViewController.m */,
 				F4DC640D1A097208008668B6 /* Main.storyboard */,
+				F4DC64291A097461008668B6 /* OWOuterSpaceTableViewController.h */,
+				F4DC642A1A097461008668B6 /* OWOuterSpaceTableViewController.m */,
 				F4DC64101A097208008668B6 /* Images.xcassets */,
 				F4DC64121A097208008668B6 /* LaunchScreen.xib */,
 				F4DC64031A097208008668B6 /* Supporting Files */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4DC642B1A097461008668B6 /* OWOuterSpaceTableViewController.m in Sources */,
 				F4DC640C1A097208008668B6 /* ViewController.m in Sources */,
 				F4DC64091A097208008668B6 /* AppDelegate.m in Sources */,
 				F4DC64061A097208008668B6 /* main.m in Sources */,
